@@ -1,6 +1,6 @@
 # A project translates into one executable or library.
 project:
-  
+
   groups:
     - group: Source Files
       files:
@@ -11,3 +11,8 @@ project:
   components:
     - component: ARM::CMSIS:CORE
     - component: Device:Startup
+    - component: Keil::Device:StdPeriph Drivers:GPIO
+    - component: Keil::Device:StdPeriph Drivers:RCC
+    - component: Keil::Device:StdPeriph Drivers:Framework@3.6.0
+  packs:
+    - pack: Keil::STM32F1xx_DFP@2.4.1
