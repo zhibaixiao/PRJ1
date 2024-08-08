@@ -1,0 +1,13 @@
+{
+    "cmsis-csolution.actions": [
+        {
+            "path": "PRJ1.csolution.yml",
+            "target": "STM32F103C8",
+            "config": {
+                "run": "arm-debugger.flash: Flash Device",
+                "debug": "Arm Debugger"
+            }
+        }
+    ],
+    "cmake.configureOnOpen": false
+}
