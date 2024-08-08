@@ -5,6 +5,11 @@ project:
     - group: Source Files
       files:
         - file: ./main.c
+      groups:
+        - group: System
+          files:
+            - file: System\Delay.c
+            - file: System\Delay.h
 
   # List components to use for your application.
   # A software component is a re-usable unit that may be configurable.
